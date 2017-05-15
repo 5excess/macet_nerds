@@ -1,9 +1,42 @@
-@font-face {
-    font-family: Roboto;
-    src: url(css/font)
-}
+/* Памятка: font-family: 'Roboto', sans-serif;*/
 
 body {
+    
+    margin-top: -15px;
+}
+header {
     font-size: 0;
     margin: 0 auto;
+    padding-top: 45px;
+    background-color: #eee;
+    width: 1440px;
+    
+    vertical-align: text-bottom;
+}
+
+main {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #fff;
+    font: 16px/1.9 Roboto, sans-serif;
+}
+
+nav {
+    display: inline-block;
+    width: 560px;
+    text-align: center;
+    font: 16px/1.9 Roboto, sans-serif;
+}
+
+ li {
+     list-style: none;
+     display: inline-block;
+     padding: 0px 10px;
+ }
+
+.header {
+    display: inline-block;
+    width: 440px;
+    text-align: center;
+    font: 16px/1.9 Roboto, sans-serif;
 }
