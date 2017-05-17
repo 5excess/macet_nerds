@@ -8,6 +8,7 @@ header {
     background-color: #eee;
     width: 1440px;
     vertical-align: text-bottom;
+    text-transform: uppercase;
 }
 
 main {
@@ -19,6 +20,7 @@ main {
 
 nav {
     display: inline-block;
+    vertical-align: middle;
     width: 560px;
     text-align: center;
     font: 16px/1.9 Roboto, sans-serif;
@@ -27,12 +29,14 @@ nav {
  li {
      list-style: none;
      display: inline-block;
-     padding: 0px 10px;
-     text-transform: uppercase;
+     padding: 0px 20px;
+     
  }
+
 
 .header {
     display: inline-block;
+    vertical-align: middle;
     width: 440px;
     text-align: center;
     font: 16px/1.9 'Roboto', sans-serif;
@@ -43,7 +47,6 @@ nav {
     background-color: #eee;
     position: relative;
     text-align: center;
-    
 }
 
 .slider > input {
@@ -95,7 +98,7 @@ nav {
 }
 
 .slid-1 {
-    background-image: url(/img/slider/slide1.png);
+    background-image: url(/img/slider/slide3.png);
     background-color: #eee;
     background-position-x: 540px;
     background-repeat: no-repeat;
@@ -104,19 +107,42 @@ nav {
 .slid-2 {
     background-image: url(/img/slider/slide2.png);
     background-color: #eee;
-    background-position-x: 540px;
+    background-position-x: 636px;
     background-repeat: no-repeat;
 }
 
 .slid-3 {
-    background-image: url(/img/slider/slide3.png);
+    background-image: url(/img/slider/slide1.png);
     background-color: #eee;
     background-position-x: 540px;
     background-repeat: no-repeat;
 }
 
+.slid-1 > .slid-text {
+    width: 350px;
+}
+
+.slid-2 > .slid-text {
+    width: 430px;
+}
+
+.slid-3 > .slid-text {
+    width: 340px;
+}
+
+.slid-1 .slid-headline {
+    width: 500px;
+}
+
+.slid-2 .slid-headline {
+    width: 600px;
+}
+
+.slid-3 .slid-headline {
+    width: 600px;
+}
+
 .slid-headline {
-  width: 500px;
   font: 55px 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1.1;
@@ -125,10 +151,10 @@ nav {
 }
 
 .slid-text {
-  width: 500px;
   font: 16px 'Roboto', sans-serif;
   line-height: 1.5;
   text-align: left;
+  margin-bottom: 2em;
 }
 
 
@@ -160,5 +186,5 @@ nav {
 
 .order {
     width: 1440px;
-    height: 510px
+    background-color: #fff;
 }
