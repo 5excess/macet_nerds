@@ -7,7 +7,6 @@ header {
     padding-top: 45px;
     background-color: #eee;
     width: 1440px;
-    
     vertical-align: text-bottom;
 }
 
@@ -77,8 +76,6 @@ nav {
     background-image: url(/img/slider/slide1.png);
     background-position-x: 400px;
     background-repeat: no-repeat;
-    position: relative;
-    z-index: 10;
 }
 
 .slid-1 > h2 {
