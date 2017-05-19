@@ -27,7 +27,7 @@ nav {
     font: 16px/1.9 Roboto, sans-serif;
 }
 
- li {
+ nav li {
      list-style: none;
      display: inline-block;
      padding: 0px 20px;
@@ -229,4 +229,18 @@ figure {
     font: 16px/1.5 Roboto, sans-serif;
     font-weight: 400;
     width: 625px;
+}
+
+.sector3 li {
+    list-style-image: url(/img/marker.png)
+}
+
+.bolt-uppercase {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sector3-33 {
+    display: inline-block;
+    width: 100px;
 }
