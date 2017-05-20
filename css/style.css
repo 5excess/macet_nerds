@@ -191,31 +191,28 @@ nav {
 }
 
 .order {
-    width: 1300px;
+    width: 1160px;
     background-color: #fff;
     position: relative;
-    padding-left: 140px;
-    padding-bottom: 80px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border-bottom: 2px solid #eee;
 }
 
 .column {
-    width: 300px;
+    
+    width: 33%;
     display: inline-block;
-    margin-top: 80px;
-    margin-right: 100px;
-}
-
-figure {
-    margin: 0px;
-}
-
-.hd {
-    text-align: center;
-    margin: 0px;
+    margin-right: -4px;
+    
 }
 
 .sector3 {
     display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
 }
 
 
@@ -223,16 +220,17 @@ figure {
      font: 45px/1.3 Roboto, sans-serif;
      font-weight: 500;
      width: 660px;
+     margin: 0px;
 }
 
 .text {
     font: 16px/1.5 Roboto, sans-serif;
     font-weight: 400;
-    width: 625px;
 }
 
 .sector3 li {
-    list-style-image: url(/img/marker.png)
+    list-style-image: url(/img/marker.png);
+    margin-bottom: 10px;
 }
 
 .bolt-uppercase {
@@ -243,4 +241,39 @@ figure {
 .sector3-33 {
     display: inline-block;
     width: 100px;
+    margin-right: 20px;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.width-625 {
+    width: 625px;
+    margin-right: 170px;
+}
+
+.top-index {
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    top: -15px;
+}
+
+.sector4 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    border-right: 2px solid #eee;
+    margin-right: -4px;
+}
+
+.sector4-4  {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 24%;
+    height: 50px;
 }
