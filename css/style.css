@@ -30,10 +30,12 @@ nav {
  nav li {
      list-style: none;
      display: inline-block;
-     padding: 0px 20px;
-     
+     padding: 0px 20px;     
  }
 
+figure {
+    margin: 0;
+}
 
 .header {
     display: inline-block;
@@ -165,13 +167,14 @@ nav {
   margin-bottom: 2em;
 }
 
-
 .key {
     width: 240px;
     height: 50px;
     background: #fb565a; 
     line-height: 50px;
     color: #fff;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .key:hover {
@@ -180,6 +183,8 @@ nav {
     background: #e74246; 
     line-height: 50px;
     color: #fff;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .key:active {
@@ -188,6 +193,8 @@ nav {
     background: #d7373b; 
     line-height: 50px;
     color: #e37376;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .order {
@@ -200,6 +207,7 @@ nav {
     padding-top: 60px;
     border-bottom: 2px solid #eee;
 }
+
 
 .column {
     
@@ -276,4 +284,66 @@ nav {
     text-align: center;
     width: 24%;
     height: 50px;
+}
+
+.map {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    margin-top: 60px;
+}
+
+.address {
+    position: absolute;
+    top: 60px;
+    left: 240px;
+    width: 200px;
+    height: 310px;
+    background-color: #fff;
+    z-index: 100;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: left;
+    box-shadow: 0 0 10px #000;
+}
+
+.social {
+    display: inline-block;
+    vertical-align: initial;
+    background-color: #eee;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.vk {
+    background: url(\img\footer\vk-icon.png) no-repeat;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 15px;
+    margin: 0px auto;
+    z-index: 200;
+}
+
+.footer-bottom {
+    display: inline-block;
+    text-align: left;
+    margin-left: 125px;
+}
+
+.footer-h1 {
+    font: 35px 'Roboto', sans-serif;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer-text {
+    font: 16px 'Roboto', sans-serif;
+    line-height: 1.5;
 }
