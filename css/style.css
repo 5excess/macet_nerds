@@ -3,12 +3,11 @@ body {
 }
 header {
     font-size: 0;
-    margin: 0 auto;
-    padding-top: 45px;
     background-color: #eee;
-    width: 1440px;
+    width: 100%;
     vertical-align: text-bottom;
     text-transform: uppercase;
+    text-align: center;
 }
 
 main {
@@ -19,12 +18,21 @@ main {
     display: block;
 }
 
+.header {
+    margin: 0 auto;
+    width: 1160px;
+    height: 85px;
+    padding-top: 65px;
+   /* text-align: center;*/
+    font: 16px/1.9 'Roboto', sans-serif;
+}
+
 .logo {
-    background: url(/img/header/logo.png);
-    display: block;
+    opacity: 1;    
     width: 160px;
     height: 65px;
-    margin: 0 auto;
+    margin-right: 200px;
+    float: left;
 }
 
 .logo:hover {
@@ -38,72 +46,60 @@ main {
 nav {
     display: inline-block;
     vertical-align: middle;
-    width: 560px;
-    text-align: center;
+    width: 800px;
     font: 16px/1.9 'Roboto', sans-serif;
+    padding-top: 25px;
 }
 
  nav a {
      text-decoration: none;
-     display: inline-block;
      color: #000;
-     padding: 0px 20px;
+     margin-right: 45px; 
+     float: left;
  }
 
 nav a:hover {
      text-decoration: none;
-     display: inline-block;
+     float: left;
      color: #f00;
-     padding: 0px 20px;
+     margin-right: 45px; 
  }
 
 nav a:active {
      text-decoration: none;
-     display: inline-block;
+     float: left;
      color: #a6a6a6;
-     padding: 0px 20px;
+     margin-right: 45px; 
  }
 
 .a-zero {
      text-decoration: none;
-     display: inline-block;
+     float: left;
      color: #000;
      border-bottom: 2px solid #f00;
-     padding: 0px 20px;
+     margin-right: 45px; 
+}
+
+button {
+    float: right;
+    width: 130px;
+    padding: 0px;
+    text-align: right;
+    font: 16px/1.9 'Roboto', sans-serif;
+    border: 0px;
+    color: #000;
+    background-color: #eee;
+    text-transform: uppercase;
+}
+
+button > img {
+    padding-right: 20px;
 }
 
 figure {
     margin: 0;
 }
 
-.header {
-    display: inline-block;
-    vertical-align: middle;
-    width: 440px;
-    text-align: center;
-    font: 16px/1.9 'Roboto', sans-serif;
-}
-
-.basket {
-     text-decoration: none;
-     display: inline-block;
-     color: #000;
-     padding: 0px 20px;
-}
-
-.basket:hover {
-     text-decoration: none;
-     display: inline-block;
-     color: #f00;
-     padding: 0px 20px;
-}
-
-.basket:active {
-     text-decoration: none;
-     display: inline-block;
-     color: #a6a6a6;
-     padding: 0px 20px;
-}
 
 .slider {
     width: 1440px;
@@ -143,7 +139,7 @@ figure {
         z-index: 100;
         position: relative;
         margin-right: 4px;
-        top: 350px;
+        top: 300px;
         transition: background 0.8s ease-out 0s;
     }
 
@@ -170,7 +166,7 @@ figure {
 .slid-1 {
     background-image: url(/img/slider/slide3.png);
     background-color: #eee;
-    background-position-x: 540px;
+    background-position-x: 570px;
     background-repeat: no-repeat;
 }
 
@@ -184,7 +180,7 @@ figure {
 .slid-3 {
     background-image: url(/img/slider/slide1.png);
     background-color: #eee;
-    background-position-x: 540px;
+    background-position-x: 570px;
     background-repeat: no-repeat;
 }
 
