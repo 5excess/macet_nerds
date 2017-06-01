@@ -11,11 +11,7 @@ header {
 }
 
 main {
-    margin: 0 auto;
-    width: 1440px;
-    background-color: #fff;
     font: 16px/1.9 Roboto, sans-serif;
-    display: block;
 }
 
 .header {
@@ -96,14 +92,14 @@ button > img {
     padding-right: 20px;
 }
 
-figure {
-    margin: 0;
+.wranner-slid {
+    width: 100%;
+    background-color: #eee;
 }
 
-
 .slider {
+    margin: 0 auto;
     width: 1440px;
-    background-color: #eee;
     position: relative;
     text-align: center;
     height: 410px;
@@ -211,7 +207,7 @@ figure {
 .slid-headline {
   font: 55px 'Roboto', sans-serif;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1;
   text-align: left;
   margin-bottom: 0.5em;
 }
@@ -220,57 +216,112 @@ figure {
   font: 16px 'Roboto', sans-serif;
   line-height: 1.5;
   text-align: left;
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 }
 
 .key {
-    width: 240px;
     height: 50px;
-    background: #fb565a; 
     line-height: 50px;
-    color: #fff;
     text-transform: uppercase;
     text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-.key:hover {
-    width: 240px;
-    height: 50px;
-    background: #e74246; 
-    line-height: 50px;
+.color-red {
+    background: #fb565a;
     color: #fff;
-    text-transform: uppercase;
-    text-align: center;
 }
 
-.key:active {
-    width: 240px;
-    height: 50px;
-    background: #d7373b; 
-    line-height: 50px;
+.color-red:hover {
+    background: #e74246;
+    color: #fff;
+}
+
+.color-red:active {
+    background: #d7373b;
     color: #e37376;
-    text-transform: uppercase;
-    text-align: center;
 }
+
+.color-green {
+    background: #00ca74;
+    color: #fff;
+}
+
+.color-green:hover {
+    background: #00bc6c;
+    color: #fff;
+}
+
+.color-green:active {
+    background: #00aa62;
+    color: #4dc491;
+}
+
+.color-yellov {
+    background: #efc84a;
+    color: #fff;
+}
+
+.color-yellov:hover {
+    background: #eab534;
+    color: #fff;
+}
+
+.color-yellov:active {
+    background: #e5a722;
+    color: #ecbe5c;
+}
+
+
+.width-240 {
+    width: 240px;
+}
+
+.width-160 {
+    width: 160px;
+}
+
+.width-220 {
+    width: 220px;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.width-625 {
+    width: 625px;
+    margin-right: 170px;
+}
+
 
 .order {
     width: 1160px;
     background-color: #fff;
     position: relative;
-    margin-left: 140px;
-    margin-right: 140px;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    margin: 0px auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
     border-bottom: 2px solid #eee;
 }
 
 
 .column {
-    width: 33%;
+    width: 400px;
     display: inline-block;
     margin-right: -4px;
-    
+    vertical-align: top;
+    text-align: left;
 }
+
+.column:nth-last-child(1) {
+    width: 350px;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+
 
 .sector3 {
     display: inline-block;
@@ -291,10 +342,44 @@ figure {
     font-weight: 400;
 }
 
+.text-margin-top {
+    font: 16px/1.5 Roboto, sans-serif;
+    font-weight: 400;
+    margin-top: 0.7em;
+    margin-bottom: 2em;
+    width: 250px;
+}
+
+
+.text-24 {
+    font: 24px/1.5 Roboto, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .sector3 li {
-    list-style-image: url(/img/marker.png);
+    list-style: none;
+    position: relative;
     margin-bottom: 10px;
 }
+
+.red-line {
+    position: absolute;
+    top: 15px;
+    left: -30px;
+    width: 25px;
+    height: 1px;
+    background-color: red;
+}
+
+.nerd-color {
+    width: 360px;
+    height: 208;
+    margin-top: -40px;
+}
+
 
 .bolt-uppercase {
     font-weight: 700;
@@ -305,15 +390,6 @@ figure {
     display: inline-block;
     width: 100px;
     margin-right: 20px;
-}
-
-.width-100 {
-    width: 100px;
-}
-
-.width-625 {
-    width: 625px;
-    margin-right: 170px;
 }
 
 .top-index {
@@ -333,7 +409,7 @@ figure {
     margin-right: -4px;
 }
 
-.sector4-4  {
+.sector4:nth-last-child(1)  {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
