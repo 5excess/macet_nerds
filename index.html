@@ -12,11 +12,11 @@
             <img src="img/header/logo.png" alt="Логотип" class="logo">
         <nav>    
             <a href="#" class="a-zero">студия</a>
-            <a href="#">клиенты</a>
+            <a href="#clients">клиенты</a>
             <a href="catalog.html">магазин</a>
             <a href="#contacts">контакты</a>            
             <button>
-                <img src="img\header\cart-icon.png" alt="">
+                <img src="img\header\cart-icon.png" alt="" class="cart">
             корзина
             </button>
         </nav>
@@ -112,7 +112,7 @@
                 </div>
             </div>
         </section>
-        <section class="order clearfix">
+        <section class="order clearfix"> <a name="clients"></a>
             <div class="sector4">
                 <img src="img\logo-1.png" alt="">    
             </div>
@@ -135,7 +135,6 @@
             <p  class="text">  тел. +7 (812) 275-75-75)</p>
             <div class="key width-220 color-red">
                 <a href="#" class="link-js"> напишите нам</a>
-                </aside>
             </div>
         </div>
         <iframe width="100%" height="420" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616378236!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1495288632272">
@@ -152,9 +151,31 @@
                 <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
             </div>
         </div>
+        <div class="modal clearfix">
+            <div class="headline">
+                Напишите нам
+            </div>
+            <button class="close">
+                  <img src="img\close.png" alt="Закрыть">
+            </button>
+            <form>
+                <label for="name" class="name"><p>Ваше имя:</p>
+                    <input type="text" name="name" id="name" value="   Представтесь пожалуйста">
+                </label>
+      
+                <label class="name"><p>Ваш e-mail:</p>
+                    <input type="text" name="" value="   Для отправки ответа">
+                </label>
+                <label  class="text-mail"> <p>Текст письма:</p>
+                    <textarea name="povest" value="textarea" placeholder="   В свободной форме">В свободной форме</textarea>
+                </label>
+            </form>
+            <div class="key width-260 color-red">
+                <a href="#" class="link-js">отправить</a>
+            </div>
+        </div>
     </footer>
-    <script src="js/script.js">
-        
+    <script src="js/script.js">        
     </script>
     </body>
 </html>

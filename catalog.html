@@ -8,47 +8,47 @@
     </head>
 <body>
     <header>
-    <div class="header">
-        <a href="#" class="logo"></a>
-    </div>
-    <nav>
-        
-        <a href="catalog.html">студия</a>
-        <a href="catalog.html">клиенты</a>
-        <a href="#" class="a-zero">магазин</a>
-        <a href="#contacts">контакты</a>
-        
-    </nav>
-    <div class="header">
-        <a href="#" class="basket">
-            <img src="img\header\cart-icon.png" alt="">
-        корзина
-        </a>
-    </div>
+        <div class="header">
+            <img src="img/header/logo.png" alt="Логотип" class="logo">
+        <nav>    
+            <a href="index.html">студия</a>
+            <a href="index.html#clients">клиенты</a>
+            <a href="#" class="a-zero">магазин</a>
+            <a href="#contacts">контакты</a>            
+            <button>
+                <img src="img\header\cart-icon.png" alt="" class="cart">
+            корзина
+            </button>
+        </nav>
+        </div>            
     </header>
     <main>
         <div class="slogan">
             <p class="name-catalog">Магазин готовых шаблонов</p>
         </div>
-        <section class="order vertikal clearfix">
+        <section class="order clearfix">
             <aside class="filter">
+                <div class="price-slider">
+                    <p>стоимость</p>
+
+                </div>
                 <p>сетка</p>
                 <ul>
-                    <li>Адаптивная</li>
-                    <li>Фиксированная</li>
-                    <li>Резиновая</li>
+                    <li><label><input type="radio" name="browser" value="ie" class="options" checked="checked">Адаптивная</label></li>
+                    <li><label><input type="radio" name="browser" value="ie" class="options">Фиксированная</label></li>
+                    <li><label><input type="radio" name="browser" value="ie" class="options">Резиновая</label></li>
                 </ul>
                 <p>особенности</p>
-                <ul>
-                    <li>Слайдер</li>
-                    <li>Блок преимуществ</li>
-                    <li>Новости</li>
-                    <li>Галерея</li>
-                    <li>Корзина</li>
-                </ul>
+                    <!--<form>
+                        <input type="radio" name="test1" id="test1" checked="checked"> Слайдер</label>
+                        <p class="options"><input type="radio" name="test2" id="test1">Блок преимуществ</p>
+                        <p class="options"><input type="radio" name="test3" id="test1">Новости</p>
+                        <p class="options"><input type="radio" name="test4" id="test1">Галерея</p>
+                        <p class="options"><input type="radio" name="test5" id="test1">Корзина</p>
+                    </form>-->
             </aside>
             <div class="catalog">
-                <ul>
+                <ul class="products">
                     <li><img src="img/catalog/img-barbershop.jpg" alt=""> </li>
                     <li><img src="img/catalog/img-barbershop.jpg" alt=""> </li>
                     <li><img src="img/catalog/img-barbershop.jpg" alt=""> </li>
@@ -64,13 +64,13 @@
             -->
         
     </main>
-    <footer class="map clearfix"><a name="contacts"></a>
+    <footer class="map clearfix"><a name="contacts"></a> <!-- AIzaSyCEZgLIT9I-rsuR9YN-hmoBFuYCYiW6r0c -->
         <div class="address">
             <p  class="text bolt-uppercase">nёrds design studio</p>
             <address  class="text">191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</address>
             <p  class="text">  тел. +7 (812) 275-75-75)</p>
-            <div class="key">
-                напишите нам
+            <div class="key width-220 color-red">
+                <a href="#" class="link-js"> напишите нам</a>
             </div>
         </div>
         <iframe width="100%" height="420" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616378236!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1495288632272">
@@ -87,6 +87,30 @@
                 <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
             </div>
         </div>
+        <div class="modal clearfix">
+            <div class="headline">
+                Напишите нам
+            </div>
+            <button class="close">
+                  <img src="img\close.png" alt="Закрыть">
+            </button>
+            <form>
+                <label for="name" class="name"><p>Ваше имя:</p>
+                    <input type="text" name="name" id="name" value="   Представтесь пожалуйста">
+                </label>
+      
+                <label class="name"><p>Ваш e-mail:</p>
+                    <input type="text" name="" value="   Для отправки ответа">
+                </label>
+                <label  class="text-mail"> <p>Текст письма:</p>
+                    <textarea name="povest" value="textarea" placeholder="   В свободной форме">В свободной форме</textarea>
+                </label>
+            </form>
+            <div class="key width-260 color-red">
+                <a href="#" class="link-js">отправить</a>
+            </div>
+        </div>
     </footer>
+    <script src="js/script.js">
     </body>
 </html>
