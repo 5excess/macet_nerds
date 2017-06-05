@@ -692,19 +692,16 @@ label > textarea {
     list-style: none;
 }
 
+.position {
+    position: relative;
+}
+
 .options {
     display: none;
 }
 
- label + .options {
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
-        background: #f00;
-        cursor: pointer;
-}
-
-.selector {
+.options + label:before {
+    content: " ";
     border: 3px solid #f00;
     border-radius: 50%;
     width: 20px;
@@ -714,16 +711,17 @@ label > textarea {
     left: -30px;
 }
 
-.selector:active {
-    border: 3px double #f00;
+.options:checked + label:before {
+    content: " ";
+    border: 3px solid #f00;
     border-radius: 50%;
     width: 20px;
     height: 20px;
     position: absolute;
+    background-color: #000;
     top: 0px;
     left: -30px;
 }
-
 
 .catalog {
     display: inline-block;
