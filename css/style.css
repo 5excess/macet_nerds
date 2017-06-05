@@ -228,8 +228,8 @@ nav a:active {
     text-align: center;
     border-radius: 3px;
     cursor: pointer;
-    float: left;
     border: 0px;
+    margin: 0px auto;
 }
 
 .color-red {
@@ -763,11 +763,49 @@ label > textarea {
 }
 
 .catalog li {
+    position: relative;
     display: inline-block;
-    margin: 0px 40px 0px 0px;
+    background-color: #eee;
+    margin: 0px 40px 35px 0px;
+}
+
+.catalog li:hover {
+    display: inline-block;
+    background-color: #4d4d4d;
+    margin: 0px 40px 35px 0px;
 }
 
 .head-product {
-    position: relative;
+    width: 345px;
+    height: 40px;
+    padding-left: 15px
+}
+
+.circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-top: 11px;
+}
+
+.sale {
+    display: none;
+}
+
+li:hover .sale {
+    display: block;
+    width: 360px;
+    height: 230px;
+    background-color: #eee;
+    position: absolute;
+    bottom: 0px;
+    color: #000;
+    font: 18px/1.9 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
 }
 
