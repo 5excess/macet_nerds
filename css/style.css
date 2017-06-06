@@ -285,6 +285,10 @@ nav a:active {
     width: 160px;
 }
 
+.width-200 {
+    width: 200px;
+}
+
 .width-220 {
     width: 220px;
 }
@@ -681,13 +685,13 @@ label > textarea {
     min-height: 200px;
     font: 18px/1.3 'Roboto', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
-.filter > p {
+.subhead {
     font: 18px/1.3 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 
@@ -748,6 +752,38 @@ label > textarea {
     top: 0px;
     left: -43px;
 }
+
+.head-catalog {
+    margin: 0 auto;
+}
+
+
+
+.sorting {
+    display: inline-block;
+    font: 14px/1.3 'Roboto', sans-serif;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.down {
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #000;
+}
+
+.up {
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #000;
+}
+
 .catalog {
     display: inline-block;
     position: relative;
@@ -793,19 +829,19 @@ label > textarea {
 
 .sale {
     display: none;
+    
 }
 
 li:hover .sale {
     display: block;
-    width: 360px;
+    width: 200px;
     height: 230px;
     background-color: #eee;
     position: absolute;
     bottom: 0px;
     color: #000;
     font: 18px/1.9 'Roboto', sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     text-align: center;
+    padding: 35px 80px 40px 80px;
 }
-
