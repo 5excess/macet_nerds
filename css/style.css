@@ -691,9 +691,12 @@ label > textarea {
     font: 18px/1.3 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    display: inline-block;
+    margin-top: 0px;
 }
 
+.f-left {
+    float: left;
+}
 
 .filter > ul {
     list-style: none;
@@ -761,9 +764,12 @@ label > textarea {
 
 .sorting {
     display: inline-block;
-    font: 14px/1.3 'Roboto', sans-serif;
+    font: 14px/1.5 'Roboto', sans-serif;
+    margin-bottom: 0px;
     background-color: #fff;
     text-transform: uppercase;
+    float: right;
+    margin-left: 10px;
 }
 
 .down {
@@ -773,6 +779,8 @@ label > textarea {
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-top: 10px solid #000;
+    float: right;
+    margin-left: 10px;
 }
 
 .up {
@@ -782,6 +790,14 @@ label > textarea {
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-bottom: 10px solid #000;
+    float: right;
+    margin-left: 10px;
+}
+
+.sorting:hover,
+.down:hover,
+.up:hover {
+    opacity: 0.5;
 }
 
 .catalog {
