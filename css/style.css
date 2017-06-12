@@ -20,9 +20,8 @@ header {
 .header {
     margin: 0 auto;
     width: 1160px;
-    height: 85px;
+    height: 83px;
     padding-top: 65px;
-    font: 16px/1.9 'Roboto', sans-serif;
 }
 
 .logo {
@@ -47,6 +46,7 @@ nav {
     width: 800px;
     font: 16px/1.9 'Roboto', sans-serif;
     padding-top: 25px;
+    font-weight: 500;
 }
 
  nav a {
@@ -84,6 +84,7 @@ nav a:active {
     padding: 0px;
     text-align: right;
     font: 16px/1.9 'Roboto', sans-serif;
+    font-weight: 500;
     border: 0px;
     color: #000;
     background-color: #eee;
@@ -136,8 +137,8 @@ nav a:active {
         cursor: pointer;
         z-index: 100;
         position: relative;
-        margin-right: 4px;
-        top: 300px;
+        margin-left: 10px;
+        top: 295px;
         transition: background 0.8s ease-out 0s;
     }
 
@@ -223,11 +224,11 @@ nav a:active {
 
 .key {
     height: 50px;
-    line-height: 50px;
     text-transform: uppercase;
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    font: 16px/3 'Roboto', sans-serif;
 }
 
 .color-red {
@@ -299,9 +300,14 @@ nav a:active {
     width: 240px;
 }
 
+.width-660 {
+    width: 660px;
+}
+
 .width-625 {
     width: 625px;
-    margin-right: 170px;
+    margin-top: 35px;
+    margin-bottom: 40px;
 }
 
 .order {
@@ -312,15 +318,13 @@ nav a:active {
     padding-bottom: 80px;
     padding-top: 80px;
     border-bottom: 2px solid #eee;
+    font-size: 0px;
 }
 
 
 .column {
     width: 400px;
     display: inline-block;
-    margin-right: -4px;
-    vertical-align: top;
-    text-align: left;
 }
 
 .column:nth-last-child(1) {
@@ -331,30 +335,48 @@ nav a:active {
 
 
 
-.sector3 {
+.sector3-l {
     display: inline-block;
     vertical-align: top;
-    margin-right: -4px;
+    margin-top: -10px;
+    width: 800px;
 }
 
+.sector3-r {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
 
 .headline {
-     font: 45px/1.3 Roboto, sans-serif;
+     font: 45px 'Roboto', sans-serif;
+     line-height: 45px;
      font-weight: 500;
-     width: 660px;
      margin: 0px;
 }
 
 .text {
-    font: 16px/1.5 Roboto, sans-serif;
+    font: 16px Roboto, sans-serif;
+    line-height: 1.5;
     font-weight: 400;
 }
 
-.text-margin-top {
+.text-line {
+    font: 16px Roboto, sans-serif;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.text-uppercase {
     font: 16px/1.5 Roboto, sans-serif;
     font-weight: 400;
-    margin-top: 0.7em;
-    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+.text-margin-top {
+    font: 16px/1.3 Roboto, sans-serif;
+    font-weight: 400;
+    margin-bottom: 37px;
     width: 250px;
 }
 
@@ -363,20 +385,22 @@ nav a:active {
     font: 24px/1.5 Roboto, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
-.sector3 li {
+.li-line {
     list-style: none;
     position: relative;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    font: 16px/1.5 Roboto, sans-serif;
+    font-weight: 400;
 }
 
 .red-line {
     position: absolute;
-    top: 15px;
-    left: -30px;
+    top: 10px;
+    left: -40px;
     width: 25px;
     height: 1px;
     background-color: red;
@@ -384,8 +408,9 @@ nav a:active {
 
 .nerd-color {
     width: 360px;
-    height: 208;
+    height: 208px;
     margin-top: -40px;
+    margin-bottom: 35px;
 }
 
 
@@ -399,6 +424,8 @@ nav a:active {
     display: inline-block;
     width: 100px;
     margin-right: 20px;
+    text-align: left;
+    margin-top: 25px;
 }
 
 .top-index {
@@ -686,6 +713,88 @@ label > textarea {
     vertical-align: top;
 }
 
+.bar {
+    width: 260px;
+    height: 80px;
+    position: relative;
+    background: #eee;
+    border-radius: 4px;
+    margin-top: 38px;
+}
+
+.bar-line {
+    width: 211px;
+    height: 2px;
+    background: #d7dcde;
+    position: absolute;
+    top: 39px;
+    left: 25px;
+    z-index: 100;
+}
+
+.bar-line-color {
+    width: 144px;
+    height: 2px;
+    background: #00ca74;
+    position: absolute;
+    top: 39px;
+    left: 25px;
+    z-index: 200;
+}
+
+.start {
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    box-shadow:  0px 3px 0px #d7dcde;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    left: 18px;
+    z-index: 300;
+}
+
+.end {
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    box-shadow:  0px 3px 0px #d7dcde;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    left: 158px;
+    z-index: 300;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background: #ababab;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.rate-filter {
+    margin-top: 14px;
+    margin-bottom: 60px;
+}
+
+.rate {
+    width: 80px;
+    height: 38px;
+    background: #eee;
+    border: 0px;
+    border-radius: 4px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
 .filter {
     display: inline-block;
     width: 260px;
@@ -711,6 +820,11 @@ label > textarea {
 .f-left {
     float: left;
 }
+
+.f-right {
+    float: right;
+}
+
 
 .filter > ul {
     list-style: none;

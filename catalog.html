@@ -30,7 +30,24 @@
             <aside class="filter">
                 <div class="price-slider">
                     <p class="subhead">стоимость</p>
-
+                    <div class="bar">
+                        <div class="start">
+                            <div class="dot"></div>
+                        </div>
+                        <div class="bar-line"></div>
+                        <div class="bar-line-color"></div>
+                        <div class="end">
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <form class="rate-filter">
+                        <p class="f-left"><label for="name" class="text-uppercase">от
+                            <input type="text" name="rate-min" id="rate-min" value="0" class="rate">
+                        </label></p>
+                        <p class="f-right"><label  class="text-uppercase">до
+                            <input type="text" name="rate-max" id="rate-max" value="15 000" class="rate">
+                        </label></p>
+                    </form>
                 </div>
                 <p class="subhead">сетка</p>
                 <ul>
@@ -185,54 +202,58 @@
                     </div>
                 </div>
             </div>
+        </section>
     </main>
-    <footer class="map clearfix"><a name="contacts"></a> <!-- AIzaSyCEZgLIT9I-rsuR9YN-hmoBFuYCYiW6r0c -->
-        <div class="address">
-            <p  class="text bolt-uppercase">nёrds design studio</p>
-            <address  class="text">191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</address>
-            <p  class="text">  тел. +7 (812) 275-75-75)</p>
-            <div class="key width-220 color-red">
-                <a href="#" class="link-js"> напишите нам</a>
+     <footer class="map-social clearfix"><a name="contacts"></a> <!-- AIzaSyCEZgLIT9I-rsuR9YN-hmoBFuYCYiW6r0c -->
+        <div class="map">
+            <div class="address">
+                <h1  class="text bolt-uppercase">nёrds design studio</h1>
+                <address  class="text">
+                    191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                </address>
+                <p  class="text">  тел. +7 (812) 275-75-75)</p>
+                <div class="key width-220 color-red">
+                    <a href="#" class="link-js"> напишите нам</a>
+                </div>
             </div>
-        </div>
-        <iframe width="100%" height="420" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616378236!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1495288632272">
-        </iframe>
-        <div class="order clearfix">
-            <div class="social"><a href="#" class="vk"></a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616378236!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1495288632272">
+                </iframe>
             </div>
-            <div class="social"><a href="#" class="fb"></a>
+            <div class="order clearfix">
+                <div class="social"><a href="#" class="vk"></a>
+                </div>
+                <div class="social"><a href="#" class="fb"></a>
+                </div>
+                <div class="social"><a href="#" class="ins"></a>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-h1">Давайте дружить, это выгодно!</p>
+                    <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
+                </div>
             </div>
-            <div class="social"><a href="#" class="ins"></a>
+            <div class="modal clearfix">
+                <div class="headline">
+                    Напишите нам
+                </div>
+                <button class="close">
+                    <img src="img/close.png" alt="Закрыть">
+                </button>
+                <form>
+                    <p><label for="name" class="name">Ваше имя: <!-- Ругаектся на р -->
+                        <input type="text" name="name" id="name" value="   Представтесь пожалуйста">
+                    </label></p>
+                    <p><label class="name">Ваш e-mail:
+                        <input type="text" name="mail" value="   Для отправки ответа">
+                    </label></p>
+                    <p><label  class="text-mail">Текст письма:
+                        <textarea name="povest" placeholder="   В свободной форме">В свободной форме</textarea>
+                    </label></p>
+                </form>
+                <div class="key width-260 color-red">
+                    <a href="#" class="link-js">отправить</a>
+                </div>
             </div>
-            <div class="footer-bottom">
-                <p class="footer-h1">Давайте дружить, это выгодно!</p>
-                <p class="footer-text">Скидка 10% для друзей из социальных сетей.</p>
-            </div>
-        </div>
-        <div class="modal clearfix">
-            <div class="headline">
-                Напишите нам
-            </div>
-            <button class="close">
-                  <img src="img/close.png" alt="Закрыть">
-            </button>
-            <form>
-                <label for="name" class="name"><p>Ваше имя:</p>
-                    <input type="text" name="name" id="name" value="   Представтесь пожалуйста">
-                </label>
-      
-                <label class="name"><p>Ваш e-mail:</p>
-                    <input type="text" name="mail" value="   Для отправки ответа">
-                </label>
-                <label  class="text-mail"> <p>Текст письма:</p>
-                    <textarea name="povest" placeholder="   В свободной форме">В свободной форме</textarea>
-                </label>
-            </form>
-            <div class="key width-260 color-red">
-                <a href="#" class="link-js">отправить</a>
-            </div>
-        </div>
-    </footer>
+        </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
