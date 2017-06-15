@@ -1,0 +1,46 @@
+.checkbox, .checkbox-off, .radio, .radio-off, .fb-icon, .insta-icon, .vk-icon{
+	background: url(sprites.png) no-repeat;
+}
+
+.checkbox{
+	background-position: 0 0;
+	width: 27px;
+	height: 23px;
+}
+
+.checkbox-off{
+	background-position: -1px -26px ;
+	width: 23px;
+	height: 23px;
+}
+
+.radio{
+	background-position: -30px -1px ;
+	width: 25px;
+	height: 25px;
+}
+
+.radio-off{
+	background-position: -29px -28px ;
+	width: 25px;
+	height: 25px;
+}
+
+.fb-icon{
+	background-position: -85px -23px ;
+	width: 12px;
+	height: 22px;
+}
+
+.insta-icon{
+	background-position: -57px -23px ;
+	width: 21px;
+	height: 21px;
+}
+
+.vk-icon{
+	background-position: -61px -1px ;
+	width: 26px;
+	height: 15px;
+}
+
