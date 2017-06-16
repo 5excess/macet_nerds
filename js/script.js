@@ -10,5 +10,3 @@ link.addEventListener("click", function(e) {
 close.addEventListener("click", function() {
     modal.classList.remove("show");
 })
-
-/*console.log ("profit");*/
