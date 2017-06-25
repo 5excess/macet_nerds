@@ -202,21 +202,21 @@ nav a:active {
 }
 
 .slid-1 {
-    background-image: url(/img/slider/slide3.png);
+    background-image: url(/img/slide3.png);
     background-color: #eee;
     background-position-x: 570px;
     background-repeat: no-repeat;
 }
 
 .slid-2 {
-    background-image: url(/img/slider/slide2.png);
+    background-image: url(/img/slide2.png);
     background-color: #eee;
     background-position-x: 636px;
     background-repeat: no-repeat;
 }
 
 .slid-3 {
-    background-image: url(/img/slider/slide1.png);
+    background-image: url(/img/slide1.png);
     background-color: #eee;
     background-position-x: 570px;
     background-repeat: no-repeat;
@@ -264,10 +264,11 @@ nav a:active {
 .key {
     height: 50px;
     text-transform: uppercase;
-    text-align: center;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font: 16px/3 Roboto, Arial, Helvetica, sans-serif;
+    float: left;
+    outline: none;
 }
 
 .color-red {
